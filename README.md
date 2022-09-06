@@ -7,7 +7,29 @@ A short brief
 
 ## Installation
 
+```bash
+npm install @mezielabs/adonis-confirm-password
+```
+Then configure the package:
+
+```bash
+node ace configure @mezielabs/adonis-confirm-password
+```
+
 ## Usage
+
+Register the middleware:
+
+```ts
+Server.middleware.registerNamed({
+  // ...other middlewares
+  confirmPassword: () => import('@ioc:Mezielabs/ConfirmPasswordMiddleware'),
+})
+```
+
+```ts
+await ConfirmPassword.confirm(auth, auth.user!.email, request.input('password'), session)
+```
 
 [npm-image]: https://img.shields.io/npm/v/adonis-confirm-password.svg?style=for-the-badge&logo=npm
 [npm-url]: https://npmjs.org/package/adonis-confirm-password "npm"
