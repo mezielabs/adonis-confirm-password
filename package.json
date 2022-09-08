@@ -1,6 +1,6 @@
 {
   "name": "@mezielabs/adonis-confirm-password",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easily allow users to confirm password before carrying out certain actions.",
   "main": "build/providers/ConfirmPasswordProvider.js",
   "scripts": {
