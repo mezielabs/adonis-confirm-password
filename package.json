@@ -1,7 +1,7 @@
 {
   "name": "@mezielabs/adonis-confirm-password",
   "version": "1.0.1",
-  "description": "",
+  "description": "Easily allow users to confirm password before carrying out certain actions.",
   "main": "build/providers/ConfirmPasswordProvider.js",
   "scripts": {
     "mrm": "mrm --preset=@adonisjs/mrm-preset",
@@ -18,9 +18,20 @@
     "version": "npm run build",
     "sync-labels": "github-label-sync --labels ./node_modules/@adonisjs/mrm-preset/gh-labels.json mezielabs/adonis-confirm-password"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mezielabs/adonis-confirm-password.git"
+  },
+  "homepage": "https://github.com/mezielabs/adonis-confirm-password#readme",
+  "keywords": [
+    "adonisjs",
+    "adonis"
+  ],
+  "author": "Chimezie Enyinnaya",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mezielabs/adonis-confirm-password/issues"
+  },
   "devDependencies": {
     "@adonisjs/auth": "^8.2.1",
     "@adonisjs/core": "^5.8.4",
