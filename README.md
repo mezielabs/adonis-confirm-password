@@ -1,9 +1,9 @@
 # adonis-confirm-password
-> Tagline
+> GitHub-like password confirmation.
 
 [![npm-image]][npm-url] [![license-image]][license-url] [![typescript-image]][typescript-url]
 
-A short brief
+Ensure users confirms their passwords before taking certain actions on your application.
 
 ## Installation
 
